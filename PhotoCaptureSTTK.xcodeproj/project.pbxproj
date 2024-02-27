@@ -11,6 +11,27 @@
 		622EDDC02B86683700735296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDBF2B86683700735296 /* ContentView.swift */; };
 		622EDDC22B86683800735296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622EDDC12B86683800735296 /* Assets.xcassets */; };
 		622EDDC52B86683800735296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622EDDC42B86683800735296 /* Preview Assets.xcassets */; };
+		622EDDCF2B86702000735296 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDCE2B86702000735296 /* CameraModel.swift */; };
+		622EDDD12B86766500735296 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDD02B86766500735296 /* CameraPreview.swift */; };
+		622EDDD42B867A0300735296 /* CaptureImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDD32B867A0300735296 /* CaptureImageButton.swift */; };
+		622EDDD72B86826900735296 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDD62B86826900735296 /* ImageData.swift */; };
+		622EDDD92B86BFDF00735296 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDDD82B86BFDF00735296 /* CameraView.swift */; };
+		622EDDE82B87C2CE00735296 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDE72B87C2CE00735296 /* FirebaseAuth */; };
+		622EDDEA2B87C2CE00735296 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDE92B87C2CE00735296 /* FirebaseAuthCombine-Community */; };
+		622EDDEE2B87C2CE00735296 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDED2B87C2CE00735296 /* FirebaseDatabase */; };
+		622EDDF02B87C2CE00735296 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDEF2B87C2CE00735296 /* FirebaseDatabaseSwift */; };
+		622EDDF42B87C2CE00735296 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDF32B87C2CE00735296 /* FirebaseFirestore */; };
+		622EDDF82B87C2CE00735296 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDDF72B87C2CE00735296 /* FirebaseFirestoreSwift */; };
+		622EDE0E2B87C2CE00735296 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 622EDE0D2B87C2CE00735296 /* FirebaseStorage */; };
+		622EDE122B87C36D00735296 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 622EDE112B87C36D00735296 /* GoogleService-Info.plist */; };
+		622EDE142B87C38100735296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDE132B87C38100735296 /* AppDelegate.swift */; };
+		622EDE162B87C3E700735296 /* PhotoBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDE152B87C3E700735296 /* PhotoBundle.swift */; };
+		622EDE192B87CA5800735296 /* sendToStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDE182B87CA5800735296 /* sendToStorage.swift */; };
+		622EDE1B2B87CF4200735296 /* sendToFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDE1A2B87CF4200735296 /* sendToFirestore.swift */; };
+		622EDE212B87FAC600735296 /* ImageDataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EDE202B87FAC600735296 /* ImageDataArray.swift */; };
+		6269F8CA2B88ED8B001FC96A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269F8C92B88ED8B001FC96A /* Loading.swift */; };
+		6269F92B2B8E9454001FC96A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6269F92A2B8E9454001FC96A /* GoogleService-Info.plist */; };
+		6269F92D2B8E94CC001FC96A /* camfrida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6269F92C2B8E94CC001FC96A /* camfrida.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,20 @@
 		622EDDBF2B86683700735296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		622EDDC12B86683800735296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		622EDDC42B86683800735296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		622EDDCE2B86702000735296 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		622EDDD02B86766500735296 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		622EDDD32B867A0300735296 /* CaptureImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageButton.swift; sourceTree = "<group>"; };
+		622EDDD62B86826900735296 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		622EDDD82B86BFDF00735296 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		622EDE112B87C36D00735296 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		622EDE132B87C38100735296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		622EDE152B87C3E700735296 /* PhotoBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBundle.swift; sourceTree = "<group>"; };
+		622EDE182B87CA5800735296 /* sendToStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendToStorage.swift; sourceTree = "<group>"; };
+		622EDE1A2B87CF4200735296 /* sendToFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendToFirestore.swift; sourceTree = "<group>"; };
+		622EDE202B87FAC600735296 /* ImageDataArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataArray.swift; sourceTree = "<group>"; };
+		6269F8C92B88ED8B001FC96A /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		6269F92A2B8E9454001FC96A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6269F92C2B8E94CC001FC96A /* camfrida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camfrida.jpg; path = ../../../../Desktop/camfrida.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622EDDEE2B87C2CE00735296 /* FirebaseDatabase in Frameworks */,
+				622EDDF42B87C2CE00735296 /* FirebaseFirestore in Frameworks */,
+				622EDDF82B87C2CE00735296 /* FirebaseFirestoreSwift in Frameworks */,
+				622EDDE82B87C2CE00735296 /* FirebaseAuth in Frameworks */,
+				622EDDF02B87C2CE00735296 /* FirebaseDatabaseSwift in Frameworks */,
+				622EDDEA2B87C2CE00735296 /* FirebaseAuthCombine-Community in Frameworks */,
+				622EDE0E2B87C2CE00735296 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +79,7 @@
 			children = (
 				622EDDBC2B86683700735296 /* PhotoCaptureSTTK */,
 				622EDDBB2B86683700735296 /* Products */,
+				622EDE1C2B87D33300735296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +94,13 @@
 		622EDDBC2B86683700735296 /* PhotoCaptureSTTK */ = {
 			isa = PBXGroup;
 			children = (
+				6269F92A2B8E9454001FC96A /* GoogleService-Info.plist */,
+				622EDE172B87CA4700735296 /* Services */,
+				622EDDCC2B86701100735296 /* Components */,
+				622EDDCB2B866FFE00735296 /* Views */,
 				622EDDBD2B86683700735296 /* PhotoCaptureSTTKApp.swift */,
 				622EDDBF2B86683700735296 /* ContentView.swift */,
+				622EDE132B87C38100735296 /* AppDelegate.swift */,
 				622EDDC12B86683800735296 /* Assets.xcassets */,
 				622EDDC32B86683800735296 /* Preview Content */,
 			);
@@ -62,9 +110,73 @@
 		622EDDC32B86683800735296 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				6269F92C2B8E94CC001FC96A /* camfrida.jpg */,
+				622EDE112B87C36D00735296 /* GoogleService-Info.plist */,
 				622EDDC42B86683800735296 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		622EDDCB2B866FFE00735296 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				622EDDD82B86BFDF00735296 /* CameraView.swift */,
+				6269F8C92B88ED8B001FC96A /* Loading.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		622EDDCC2B86701100735296 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				622EDDD52B86825100735296 /* Models */,
+				622EDDD22B8679E500735296 /* buttons */,
+				622EDDCD2B86701800735296 /* Camera */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		622EDDCD2B86701800735296 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				622EDDCE2B86702000735296 /* CameraModel.swift */,
+				622EDDD02B86766500735296 /* CameraPreview.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		622EDDD22B8679E500735296 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				622EDDD32B867A0300735296 /* CaptureImageButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		622EDDD52B86825100735296 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				622EDDD62B86826900735296 /* ImageData.swift */,
+				622EDE152B87C3E700735296 /* PhotoBundle.swift */,
+				622EDE202B87FAC600735296 /* ImageDataArray.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		622EDE172B87CA4700735296 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				622EDE182B87CA5800735296 /* sendToStorage.swift */,
+				622EDE1A2B87CF4200735296 /* sendToFirestore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		622EDE1C2B87D33300735296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +195,15 @@
 			dependencies = (
 			);
 			name = PhotoCaptureSTTK;
+			packageProductDependencies = (
+				622EDDE72B87C2CE00735296 /* FirebaseAuth */,
+				622EDDE92B87C2CE00735296 /* FirebaseAuthCombine-Community */,
+				622EDDED2B87C2CE00735296 /* FirebaseDatabase */,
+				622EDDEF2B87C2CE00735296 /* FirebaseDatabaseSwift */,
+				622EDDF32B87C2CE00735296 /* FirebaseFirestore */,
+				622EDDF72B87C2CE00735296 /* FirebaseFirestoreSwift */,
+				622EDE0D2B87C2CE00735296 /* FirebaseStorage */,
+			);
 			productName = PhotoCaptureSTTK;
 			productReference = 622EDDBA2B86683700735296 /* PhotoCaptureSTTK.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 622EDDB12B86683700735296;
+			packageReferences = (
+				622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 622EDDBB2B86683700735296 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6269F92D2B8E94CC001FC96A /* camfrida.jpg in Resources */,
+				622EDE122B87C36D00735296 /* GoogleService-Info.plist in Resources */,
 				622EDDC52B86683800735296 /* Preview Assets.xcassets in Resources */,
 				622EDDC22B86683800735296 /* Assets.xcassets in Resources */,
+				6269F92B2B8E9454001FC96A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +264,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622EDDD42B867A0300735296 /* CaptureImageButton.swift in Sources */,
+				622EDDD92B86BFDF00735296 /* CameraView.swift in Sources */,
+				6269F8CA2B88ED8B001FC96A /* Loading.swift in Sources */,
 				622EDDC02B86683700735296 /* ContentView.swift in Sources */,
+				622EDE162B87C3E700735296 /* PhotoBundle.swift in Sources */,
+				622EDDD12B86766500735296 /* CameraPreview.swift in Sources */,
+				622EDE142B87C38100735296 /* AppDelegate.swift in Sources */,
 				622EDDBE2B86683700735296 /* PhotoCaptureSTTKApp.swift in Sources */,
+				622EDDCF2B86702000735296 /* CameraModel.swift in Sources */,
+				622EDE192B87CA5800735296 /* sendToStorage.swift in Sources */,
+				622EDDD72B86826900735296 /* ImageData.swift in Sources */,
+				622EDE1B2B87CF4200735296 /* sendToFirestore.swift in Sources */,
+				622EDE212B87FAC600735296 /* ImageDataArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +410,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoCaptureSTTK/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TVT65N354;
+				DEVELOPMENT_TEAM = 269Q96FXKU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires to use the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.softtek.PhotoCaptureSTTK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softtek.photocapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,9 +440,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoCaptureSTTK/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TVT65N354;
+				DEVELOPMENT_TEAM = 269Q96FXKU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires to use the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.softtek.PhotoCaptureSTTK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softtek.photocapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +484,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		622EDDE72B87C2CE00735296 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		622EDDE92B87C2CE00735296 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		622EDDED2B87C2CE00735296 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		622EDDEF2B87C2CE00735296 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		622EDDF32B87C2CE00735296 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		622EDDF72B87C2CE00735296 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		622EDE0D2B87C2CE00735296 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 622EDDDA2B87C2CE00735296 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 622EDDB22B86683700735296 /* Project object */;
 }
